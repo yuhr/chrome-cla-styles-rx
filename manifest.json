@@ -1,0 +1,18 @@
+{
+  "name": "CLA Styles",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Apply the conscript fonts to tagged text for Arxidian conlangs",
+  "content_scripts": [
+    {
+      "matches": [ "http://*/*", "https://*/*" ],
+      "exclude_matches": [ "https://github.com/*" ],
+      "js": [ "script.js" ],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [
+    "kardinal.woff",
+    "farf.woff"
+  ]
+}
