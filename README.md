@@ -18,4 +18,4 @@ Please install at your own risk.
 5. That's it!
 
 ## How it works
-The script.js replaces `𐍊𐍂𐍇` with `<span class="-font-ext">` and `𐍂𐍇𐍊` with `</span>` in the `<p>` tags, and apply `font-family` style to the `.-font-ext`. As you see, when tags are opened, the entire page style might be broken. Please be careful in tweeting/posting your conscript text.
+The script.js replaces the tag marker `𐍊𐍂𐍇` with `<span class="-font-ext">` and `𐍂𐍇𐍊` with `</span>` in the `<p>` tags, and apply `font-family` style to the `.-font-ext`. In order to deal with dynamic webpages, MutationObserver callback API is used and the callback performs replacement per page body change. As you see, when tags are not closed, the entire page style might be broken. Please be careful in tweeting/posting your conscript texts with these tag markers.
