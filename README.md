@@ -1,7 +1,7 @@
 # chrome-cla-styles-rx
-Google Chrome extension to apply the conscript fonts to tagged text for Arxidian conlangs
+Google Chrome extension to apply the conscript fonts to tagged text for Arxidian conlangs.
 
-- Officially Supported Websites
+- Mainly supported websites
 	- twitter.com
 	- tumblr.com
 	- and almost of static webpages
