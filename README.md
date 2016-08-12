@@ -16,3 +16,6 @@ Please install at your own risk.
 3. Check the "Developer mode" checkbox.
 4. Click "Load unpacked extension..." and select the extension folder.
 5. That's it!
+
+## How it works
+The script.js replaces `𐍊𐍂𐍇` with `<span class="-font-ext">` and `𐍂𐍇𐍊` with `</span>` in the `<p>` tags, and apply `font-family` style to the `.-font-ext`. As you see, when tags are opened, the entire page style might be broken. Please be careful in tweeting/posting your conscript text.
