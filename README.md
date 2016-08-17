@@ -11,7 +11,7 @@ Note that this extension is still almost incomplete and dangerous.
 ## How to install
 Please install at your own risk.
 
-1. Download [chrome-cla-styles-rx.crx](https://github.com/qothr/chrome-cla-styles-rx/blob/master/chrome-cla-styles-rx.crx).
+1. Download [chrome-cla-styles-rx.crx](https://github.com/qothr/chrome-cla-styles-rx/raw/master/chrome-cla-styles-rx.crx).
 2. Simply drag and drop it to your Google Chrome window.
 3. That's it!
 
