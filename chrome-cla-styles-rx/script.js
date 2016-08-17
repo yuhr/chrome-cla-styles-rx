@@ -1,7 +1,7 @@
 
 var style_font_ext = document.createElement("style");
 style_font_ext.appendChild(document.createTextNode(
-	'@font-face{ font-family: "kardinal"; src: url("' + chrome.extension.getURL('kardinal.woff') + '") format("woff"); } @font-face{ font-family: "farf"; src: url("' + chrome.extension.getURL('farf.woff') + '") format("woff"); } .-cla-styles-rx-font-family { font-family: "kardinal", "farf" !important; } .-cla-styles-rx-invisible-marker { opacity: 0; white-space: pre; letter-spacing: -0.4em; }'));
+	'@font-face{ font-family: "kardinal"; src: local("kardinal"), url("' + chrome.extension.getURL('kardinal.woff') + '") format("woff"); } @font-face{ font-family: "farf"; src: local("farf"), url("' + chrome.extension.getURL('farf.woff') + '") format("woff"); } .-cla-styles-rx-font-family { font-family: "kardinal", "farf" !important; } .-cla-styles-rx-invisible-marker { opacity: 0; white-space: pre; letter-spacing: -0.4em; }'));
 document.head.appendChild(style_font_ext);
 
 var insert_tags = function (muts)
