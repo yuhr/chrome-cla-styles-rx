@@ -14,6 +14,5 @@
   "web_accessible_resources": [
     "kardinal.woff",
     "farf.woff"
-  ],
-  "update_url": "https://github.com/qothr/chrome-cla-styles-rx/blob/master/update.xml"
+  ]
 }
