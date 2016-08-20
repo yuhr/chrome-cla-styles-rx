@@ -21,5 +21,5 @@ Please install at your own risk.
 The script.js replaces the tag marker `𐍊𐍂𐍇` with `<span class="-cla-styles-rx-font-family">` and `𐍂𐍇𐍊` with `</span>` in the `<p>` tags, and apply `font-family` style to the `.-cla-styles-rx-font-family`. In order to deal with dynamic webpages, MutationObserver callback API is used and the callback performs replacement per page body change. As you see, when tags are not closed, the entire page style might be broken. Please be careful in tweeting/posting your conscript texts with these tag markers.
 
 ## Test text
-- 𐍊𐍂𐍇 non et xion. tu et to? 𐍂𐍇𐍊
-- 𐍊𐍂𐍇 나 와은 나기사 다루오。 𐍂𐍇𐍊
+𐍊𐍂𐍇 non et xion. tu et to? 𐍂𐍇𐍊
+𐍊𐍂𐍇 나 와은 나기사 다루오。 𐍂𐍇𐍊
